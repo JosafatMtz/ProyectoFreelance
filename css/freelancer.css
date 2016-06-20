@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: #FFFAD5;
 }
 p {
   font-size: 20px;
@@ -18,7 +19,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18bc9c;
+  color: #DB9E36;
   outline: none;
 }
 h1,
@@ -27,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Mitr', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -69,7 +70,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18bc9c;
+  background: white;
   color: white;
 }
 header .container {
@@ -82,7 +83,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Mitr', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -124,7 +125,7 @@ header .intro-text .skills {
   }
 }
 .navbar {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Mitr', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -228,7 +229,7 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18bc9c;
+  color: #DB9E36;
   background: white;
   border: solid 2px white;
 }
